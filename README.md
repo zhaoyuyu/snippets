@@ -1,2 +1,2 @@
 # snippets
-Snippets easy developing.
+Snippets faster your development.
