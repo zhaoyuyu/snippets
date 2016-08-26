@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    uint64_t interval = 2 * NSEC_PER_SEC;
+    dispatch_queue_t &lt;#queueName#&gt; = dispatch_queue_create("&lt;#reverse dns#&gt;", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_source_t &lt;#timerName#&gt; = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, &lt;#queueName#&gt;);
+    dispatch_source_set_timer(&lt;#timerName#&gt;, dispatch_time(DISPATCH_TIME_NOW, 0), interval, 0);
+    dispatch_source_set_event_handler(&lt;#timerName#&gt;, ^() {
+        &lt;#your code goes here#&gt;
+    });
+    dispatch_resume(&lt;#timerName#&gt;);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>37A25B3C-25AB-48BE-8023-23C32662B17F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GCD:Create a dispatch_source_t</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

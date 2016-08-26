@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    CABasicAnimation *&lt;#animationName#&gt; =[CABasicAnimation animationWithKeyPath:&lt;#animationKeyPath#&gt;];
+    
+    // transform.scale,transform.scale.x,transform.scale.y,transform.rotation.z,opacity are valid keyPaths
+    &lt;#animationName#&gt;.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];    &lt;#animationName#&gt;.duration = &lt;#duration#&gt;;    &lt;#animationName#&gt;.repeatCount = &lt;#repeatCount#&gt;;    &lt;#animationName#&gt;.removedOnCompletion = FALSE;    &lt;#animationName#&gt;.fillMode = kCAFillModeForwards;    &lt;#animationName#&gt;.autoreverses = NO;    &lt;#animationName#&gt;.fromValue = [NSNumber numberWithFloat:&lt;#from#&gt;];    &lt;#animationName#&gt;.toValue = [NSNumber numberWithFloat:&lt;#to#&gt;];    [self.view.layer addAnimation:&lt;#animationName#&gt; forKey:&lt;#animationKey#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2F0A97A5-657D-49D8-B9D7-8BE1E2353B89</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CABasicAnimation:A cabasic animation template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

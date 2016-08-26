@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>typedef void (^&lt;#typename#&gt;)(&lt;#type#&gt; &lt;#name#&gt;, &lt;#type#&gt; &lt;#name#&gt;);
+/// typedef void (^AFCompletionBlock)(AFHTTPRequestOperation *operation, id responseObject);
+
+(&lt;#returnType#&gt; (^)(&lt;#type#&gt; &lt;#name#&gt;,&lt;#type#&gt; &lt;#name#&gt;))
+/// - (void)setCompletionBlockWithSuccess:(void (^)(AFHTTPRequestOperation *operation, id responseObject));
+
+^()(&lt;#type#&gt; &lt;#name#&gt;, &lt;#type#&gt; &lt;#name#&gt;);
+/// [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {}];
+
+&lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#type#&gt;, &lt;#type#&gt;) = ^(&lt;#type#&gt; &lt;#name#&gt;, &lt;#type#&gt; &lt;#name#&gt;){};
+/// void (^af_completitionBlock)(AFHTTPRequestOperation, id) = ^(AFHTTPRequestOperation *operation, id responseObject) {};responseObject);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0BF10954-B44B-4C58-88EF-2546E6921E1F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Block: Syntaxs in different ocassions</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

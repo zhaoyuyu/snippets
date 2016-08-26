@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    [UIAlertView showWithTitle:&lt;#title#&gt;
+                       message:&lt;#message#&gt;
+             cancelButtonTitle:@"取消"
+             otherButtonTitles:@[@"确定"]
+                      tapBlock:
+     ^(UIAlertView *alertView, NSInteger buttonIndex) {
+         if ([[alertView buttonTitleAtIndex:buttonIndex] isEqualToString:@"确定"]) {
+             
+         } else if ([[alertView buttonTitleAtIndex:buttonIndex] isEqualToString:@"取消"]){
+             
+         }
+     }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5FDA5DBD-97FE-4DC0-95E9-FFA86F50EDE6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAlertView:A blocked Faster alertView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

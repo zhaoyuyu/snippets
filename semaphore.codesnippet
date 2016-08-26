@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    dispatch_semaphore_t &lt;#semaphoreName#&gt; = dispatch_semaphore_create(0);
+    dispatch_semaphore_wait(&lt;#semaphoreName#&gt;, DISPATCH_TIME_FOREVER);
+    dispatch_semaphore_signal(&lt;#semaphoreName#&gt;);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>903B1F6F-216F-4D2A-BF71-2854772DD621</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GCD:Create a semaphore</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

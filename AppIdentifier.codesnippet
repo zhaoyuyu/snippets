@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleIdentifier"];
+
+    [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>88341478-2DDB-43EF-8F68-D7A4D62D1586</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Application Plist Configuration:  App Identifier and Version</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
